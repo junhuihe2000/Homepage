@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "Junhui He"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: test.qmd
+        text: Test
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: 
+  render-on-save: true
+
+
+
