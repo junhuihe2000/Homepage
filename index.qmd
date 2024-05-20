@@ -1,7 +1,33 @@
 ---
-title: "Homepage"
+title: "Junhui He"
+about: 
+  template: solana
+  image: /images/bio.jpg
+  links: 
+    - icon: github
+      text: GitHub
+      href: https://github.com/junhuihe2000
 ---
 
-This is a Quarto website.
+I am a PhD student in Statistics at the Department of Mathematical Sciences, Tsinghua University. Welcome to my homepage! Recently I am interested in variational inference and generative models.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<i class="bi bi-envelope"></i> hejh22@mails.tsinghua.edu.cn
+
+## Education
+
+PhD student in Statistics, Tsinghua University | 2022 - now
+
+BS in Mathematics, Tsinghua University | 2018 - 2022
+
+## Research Interests
+
+Gaussian Process, Manifold Learning, Bayesian Inference, Spline Regression
+
+## Awards
+
+Scholarship of Tsinghua University | 2021
+
+## Experience
+
+Quant researcher intern in XY investments, Shanghai | 2021
+
