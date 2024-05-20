@@ -1,21 +1,20 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Junhui He"
+  search: true
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
-      - href: test.qmd
-        text: Test
+        text: "Home"
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
 
 editor: 
   render-on-save: true

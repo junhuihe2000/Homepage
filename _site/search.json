@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Homepage",
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "Test",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is test for Quarto.\nI don’t know what is happening.\nTest render on save.\nsee About."
   },
   {
     "objectID": "about.html",
@@ -14,10 +14,45 @@
     "text": "About this site"
   },
   {
-    "objectID": "test.html",
-    "href": "test.html",
-    "title": "Test",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Junhui He",
     "section": "",
-    "text": "This is test for Quarto.\nI don’t know what is happening.\nTest render on save.\nsee About."
+    "text": "I am a PhD student in Statistics at the Department of Mathematical Sciences, Tsinghua University. Welcome to my homepage! Recently I am interested in variational inference and generative models.\nhejh22@mails.tsinghua.edu.cn"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Junhui He",
+    "section": "Education",
+    "text": "Education\nPhD student in Statistics, Tsinghua University | 2022 - now\nBS in Mathematics, Tsinghua University | 2018 - 2022"
+  },
+  {
+    "objectID": "index.html#research-interest",
+    "href": "index.html#research-interest",
+    "title": "Junhui He",
+    "section": "Research Interest",
+    "text": "Research Interest\nbla"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Junhui He",
+    "section": "Research Interests",
+    "text": "Research Interests\nGaussian Process, Manifold Learning, Bayesian Inference, Spline Regression"
+  },
+  {
+    "objectID": "index.html#awards",
+    "href": "index.html#awards",
+    "title": "Junhui He",
+    "section": "Awards",
+    "text": "Awards\nScholarship of Tsinghua University | 2021"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Junhui He",
+    "section": "Experience",
+    "text": "Experience\nQuant researcher intern in XY investments, Shanghai | 2021"
   }
 ]
