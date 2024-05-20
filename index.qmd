@@ -2,7 +2,7 @@
 title: "Junhui He"
 about: 
   template: solana
-  image: /images/bio.jpg
+  image: images/bio.jpg
   links: 
     - icon: github
       text: GitHub
