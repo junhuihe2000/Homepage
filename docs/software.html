@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Junhui He - About</title>
+<title>Junhui He - Software</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -97,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publication</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
+    <a class="nav-link active" href="./software.html" aria-current="page"> 
 <span class="menu-text">Software</span></a>
   </li>  
 </ul>
@@ -113,32 +112,36 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-solana column-body content">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Software</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
+</header> 
+      <div class="about-contents"><main class="content" id="quarto-document-content">
+<section id="geometric-gaussian-process-on-manifolds" class="level3">
+<h3 data-anchor-id="geometric-gaussian-process-on-manifolds">Geometric Gaussian process on manifolds</h3>
+<ul>
+<li><a href="https://github.com/junhuihe2000/FLGP">FLGP: An R package for scalable Bayesian inference of heat kernel Gaussian processes on manifolds</a> (written in Rcpp)</li>
+</ul>
+</section>
+<section id="bayesian-model-selection" class="level3">
+<h3 data-anchor-id="bayesian-model-selection">Bayesian Model Selection</h3>
+<ul>
+<li><a href="https://github.com/junhuihe2000/EBARS">EBARS: An R package for adaptive Bayesian multivariate spline knot inference</a> (written in Rcpp)</li>
+</ul>
 
 
-</header>
-
-
-<p>About this site</p>
-
-
-
-</main> <!-- /main -->
+</section>
+</main></div>
+    </div>
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -159,13 +162,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
