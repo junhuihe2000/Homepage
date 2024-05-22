@@ -1,0 +1,13 @@
+---
+title: "Software"
+about: 
+  template: solana
+---
+
+### Geometric Gaussian process on manifolds
+
+- [FLGP: An R package for scalable Bayesian inference of heat kernel Gaussian processes on manifolds](https://github.com/junhuihe2000/FLGP) (written in Rcpp)
+
+### Bayesian Model Selection
+
+- [EBARS: An R package for adaptive Bayesian multivariate spline knot inference](https://github.com/junhuihe2000/EBARS) (written in Rcpp)
