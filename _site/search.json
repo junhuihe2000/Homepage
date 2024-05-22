@@ -54,5 +54,12 @@
     "title": "Junhui He",
     "section": "Experience",
     "text": "Experience\nQuant researcher intern in XY investments, Shanghai | 2021"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Geometric Gaussian process on manifolds\n\nFLGP: An R package for scalable Bayesian inference of heat kernel Gaussian processes on manifolds (written in Rcpp)\n\n\n\nBayesian Model Selection\n\nEBARS: An R package for adaptive Bayesian multivariate spline knot inference (written in Rcpp)"
   }
 ]
