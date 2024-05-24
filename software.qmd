@@ -8,6 +8,6 @@ about:
 
 - [FLGP: An R package for scalable Bayesian inference of heat kernel Gaussian processes on manifolds](https://github.com/junhuihe2000/FLGP) (written in Rcpp)
 
-### Bayesian Model Selection
+### Bayesian model selection
 
 - [EBARS: An R package for adaptive Bayesian multivariate spline knot inference](https://github.com/junhuihe2000/EBARS) (written in Rcpp)
