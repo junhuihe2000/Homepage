@@ -60,6 +60,27 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "Geometric Gaussian process on manifolds\n\nFLGP: An R package for scalable Bayesian inference of heat kernel Gaussian processes on manifolds (written in Rcpp)\n\n\n\nBayesian Model Selection\n\nEBARS: An R package for adaptive Bayesian multivariate spline knot inference (written in Rcpp)"
+    "text": "Geometric Gaussian process on manifolds\n\nFLGP: An R package for scalable Bayesian inference of heat kernel Gaussian processes on manifolds (written in Rcpp)\n\n\n\nBayesian model selection\n\nEBARS: An R package for adaptive Bayesian multivariate spline knot inference (written in Rcpp)"
+  },
+  {
+    "objectID": "publication.html",
+    "href": "publication.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Junhui He, Guoxuan Ma, Jian Kang and Ying Yang. (2024) Scalable Bayesian inference for heat kernel Gaussian processes on manifolds. Preprint arXiv:2405.13342.\nJunhui He, Ying Yang and Jian Kang. (2024) Adaptive Bayesian multivariate spline knot inference with prior specifications on model complexity. Preprint arXiv:2405.13353."
+  },
+  {
+    "objectID": "publication.html#under-review",
+    "href": "publication.html#under-review",
+    "title": "Publications",
+    "section": "",
+    "text": "Junhui He, Guoxuan Ma, Jian Kang and Ying Yang. (2024) Scalable Bayesian inference for heat kernel Gaussian processes on manifolds. Preprint arXiv:2405.13342.\nJunhui He, Ying Yang and Jian Kang. (2024) Adaptive Bayesian multivariate spline knot inference with prior specifications on model complexity. Preprint arXiv:2405.13353."
+  },
+  {
+    "objectID": "publication.html#papers-under-review",
+    "href": "publication.html#papers-under-review",
+    "title": "Publications",
+    "section": "",
+    "text": "Junhui He, Guoxuan Ma, Jian Kang and Ying Yang. (2024) Scalable Bayesian inference for heat kernel Gaussian processes on manifolds. Preprint arXiv:2405.13342.\nJunhui He, Ying Yang and Jian Kang. (2024) Adaptive Bayesian multivariate spline knot inference with prior specifications on model complexity. Preprint arXiv:2405.13353."
   }
 ]

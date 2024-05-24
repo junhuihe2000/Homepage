@@ -1,3 +1,7 @@
 ---
-title: "Publication"
+title: "Publications"
 ---
+
+## Papers Under Review
+- **Junhui He**, Guoxuan Ma, Jian Kang and Ying Yang. (2024) Scalable Bayesian inference for heat kernel Gaussian processes on manifolds. *Preprint arXiv:2405.13342*.
+- **Junhui He**, Ying Yang and Jian Kang. (2024) Adaptive Bayesian multivariate spline knot inference with prior specifications on model complexity. *Preprint arXiv:2405.13353*.
