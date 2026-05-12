@@ -12,7 +12,7 @@ about:
       href: https://github.com/junhuihe2000
     - icon: file-earmark-person
       text: Resume
-      href: docs/resume.pdf
+      href: /Homepage/resume.pdf
 ---
 
 I am a PhD student in Statistics at Tsinghua University and a visiting PhD student in Biostatistics at the University of Michigan. I build statistical machine learning methods for high-dimensional scientific data, with a focus on Bayesian inference, Gaussian processes, manifold learning, and scalable algorithms.

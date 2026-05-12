@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Junhui He"
+  site-path: /Homepage
   search: true
   navbar:
     left:
@@ -24,6 +25,5 @@ format:
 
 editor: 
   render-on-save: true
-
 
 
