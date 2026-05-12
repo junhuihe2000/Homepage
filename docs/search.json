@@ -60,35 +60,35 @@
     "href": "resume.html",
     "title": "Junhui He",
     "section": "",
-    "text": "PhD candidate in Statistics with experience building statistical machine learning methods, scalable Bayesian inference algorithms, and research software for high-dimensional scientific data. Strong background in Bayesian modeling, Gaussian processes, manifold learning, and applied machine learning, with applications in neuroimaging, transcriptomics, clinical photography, and skin reflectance data. Seeking industry roles in data science, applied science, machine learning, AI for science, quantitative research, or biomedical AI."
+    "text": "PhD student in Statistics with experience building statistical machine learning methods, scalable Bayesian inference algorithms, and research software for high-dimensional scientific data. Strong background in Bayesian modeling, Gaussian processes, manifold learning, and applied machine learning, with applications in neuroimaging and transcriptomics. Seeking industry roles in large language models, data science, machine learning, AI for science, quantitative research."
   },
   {
     "objectID": "resume.html#professional-summary",
     "href": "resume.html#professional-summary",
     "title": "Junhui He",
     "section": "",
-    "text": "PhD candidate in Statistics with experience building statistical machine learning methods, scalable Bayesian inference algorithms, and research software for high-dimensional scientific data. Strong background in Bayesian modeling, Gaussian processes, manifold learning, and applied machine learning, with applications in neuroimaging, transcriptomics, clinical photography, and skin reflectance data. Seeking industry roles in data science, applied science, machine learning, AI for science, quantitative research, or biomedical AI."
+    "text": "PhD student in Statistics with experience building statistical machine learning methods, scalable Bayesian inference algorithms, and research software for high-dimensional scientific data. Strong background in Bayesian modeling, Gaussian processes, manifold learning, and applied machine learning, with applications in neuroimaging and transcriptomics. Seeking industry roles in large language models, data science, machine learning, AI for science, quantitative research."
   },
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
     "title": "Junhui He",
     "section": "Education",
-    "text": "Education\nPhD candidate in Statistics, Tsinghua University | 2022-08 - Present\nVisiting PhD student in Biostatistics, University of Michigan, Ann Arbor | 2024-11 - 2026-08\nBS in Mathematics, Tsinghua University | 2018-08 - 2022-06"
+    "text": "Education\nPhD student in Statistics, Tsinghua University | 2022-08 — Present\nVisiting PhD student in Biostatistics, University of Michigan, Ann Arbor | 2024-11 — 2026-08\nBS in Mathematics, Tsinghua University | 2018-08 — 2022-06"
   },
   {
     "objectID": "resume.html#technical-skills",
     "href": "resume.html#technical-skills",
     "title": "Junhui He",
     "section": "Technical Skills",
-    "text": "Technical Skills\n\nProgramming languages: R, Python, C++\nStatistical modeling: Bayesian inference, Gaussian processes, Markov chain Monte Carlo, variational inference, spline models\nMachine learning: PyTorch, scikit-learn, manifold learning, dimensionality reduction\nScientific computing: Rcpp, graph Laplacians, reduced-rank approximation, high-dimensional data analysis\nApplication areas: neuroimaging, transcriptomics, biomedical imaging, quantitative finance"
+    "text": "Technical Skills\n\nProgramming languages: R, Python, C++\nStatistical modeling: Bayesian inference, Gaussian processes, Markov chain Monte Carlo, variational inference, spline models\nMachine learning: PyTorch, scikit-learn, manifold learning"
   },
   {
     "objectID": "resume.html#research-software-experience",
     "href": "resume.html#research-software-experience",
     "title": "Junhui He",
     "section": "Research & Software Experience",
-    "text": "Research & Software Experience\nScalable Bayesian inference for heat kernel Gaussian processes on manifolds\n\nDeveloped scalable Bayesian methodology for manifold-valued data using graph Laplacian approximations and reduced-rank computation.\nReduced computational complexity from \\(O(n^3)\\) to \\(O(n)\\) for large-scale inference while preserving intrinsic data geometry.\nBuilt the accompanying FLGP R package with Rcpp implementation.\n\nAdaptive Bayesian multivariate spline model selection\n\nDeveloped Bayesian model selection methods for multivariate spline knot inference with priors on model complexity.\nBuilt the accompanying ABMRS R package with Rcpp implementation.\n\nApplied biomedical data modeling\n\nWorked on statistical methods for spatiotemporal transcriptomics and imaging data.\nContributed to optical and statistical analysis of skin reflectance measurement using large-scale spectra data.\n\nQuantitative research internship, XY Investments, Shanghai | 2021\n\nApplied mathematical and statistical modeling in a quantitative research setting."
+    "text": "Research & Software Experience\nScalable Bayesian inference for heat kernel Gaussian processes on manifolds\n\nDeveloped scalable Bayesian methodology for large-scale data on Riemannian manifolds, e.g., image data and fMRI data, using graph Laplacian approximations and reduced-rank computation.\nReduced computational complexity from \\(O(n^3)\\) to \\(O(n)\\) for large-scale inference while preserving intrinsic data geometry.\nBuilt the accompanying FLGP R package with Rcpp implementation.\n\nAdaptive Bayesian multivariate regression spline model\n\nDeveloped Bayesian adaptive model selection methods for multivariate spline knot inference with priors on model complexity.\nApplied the method to capturing discontinuity, change-point detection, and peak identification.\nBuilt the accompanying ABMRS R package with Rcpp implementation.\n\nQuantitative research internship, XY Investments, Shanghai | 2021\n\nApplied mathematical and statistical modeling in a quantitative research setting.\nBacktested trading strategies using efficient and robust precision matrix estimation."
   },
   {
     "objectID": "resume.html#publications",
