@@ -4,30 +4,59 @@ about:
   template: solana
   image: images/bio.jpg
   links: 
+    - icon: envelope
+      text: Email
+      href: mailto:hejh22@mails.tsinghua.edu.cn
     - icon: github
       text: GitHub
       href: https://github.com/junhuihe2000
+    - icon: file-earmark-person
+      text: Resume
+      href: resume.pdf
 ---
 
-I am a PhD student in Statistics at the Department of Mathematical Sciences, Tsinghua University. Welcome to my homepage! Recently I am interested in variational inference and generative models.
+I am a PhD student in Statistics at Tsinghua University and a visiting PhD student in Biostatistics at the University of Michigan. I build statistical machine learning methods for high-dimensional scientific data, with a focus on Bayesian inference, Gaussian processes, manifold learning, and scalable algorithms.
+
+I am especially interested in industry roles where scalable computation, reliable software, and modern machine learning meet: large language models, data science, applied scientist, machine learning engineer, quantitative research, and AI for science. My recent work includes scalable Bayesian inference on manifolds, spatiotemporal modeling for transcriptomics, and statistical methods for imaging and biomedical data.
 
 <i class="bi bi-envelope"></i> hejh22@mails.tsinghua.edu.cn
 
+::: {.career-panel}
+**Industry focus:** large language models, statistical machine learning, Bayesian modeling, scalable inference, AI for science, quantitative research
+
+**Tooling:** Python, R, C++, PyTorch, scikit-learn, Rcpp
+:::
+
+## Selected Highlights
+
+- Published scalable Bayesian inference research in *JRSSB*, reducing heat-kernel Gaussian process computation from cubic to linear complexity for large-scale data on Riemannian manifolds.
+- Developed research software packages in R/Rcpp for Gaussian process modeling and Bayesian model selection.
+- Applied statistical modeling to neuroimaging and transcriptomics.
+- Trained in mathematics and statistics at Tsinghua University, with ongoing biostatistics research experience at the University of Michigan.
+
 ## Education
 
-PhD student in Statistics, Tsinghua University | 2022 - now
+PhD student in Statistics, Tsinghua University | 2022-08 --- Present
 
-BS in Mathematics, Tsinghua University | 2018 - 2022
+Visiting PhD student in Biostatistics, University of Michigan, Ann Arbor | 2024-11 --- 2026-08
 
-## Research Interests
+BS in Mathematics, Tsinghua University | 2018-08 --- 2022-06
 
-Gaussian Process, Manifold Learning, Bayesian Inference, Spline Regression
+## Research & Engineering Interests
+
+- Bayesian inference, Gaussian processes, MCMC, variational inference
+- Manifold learning, graph Laplacians, reduced-rank approximation, scalable computation
+- Machine learning for biomedical and scientific data
+- Large language models and statistical applications of foundation models
 
 ## Awards
 
-Scholarship of Tsinghua University | 2021
+Graduate First-Class Comprehensive Excellence Scholarship, Tsinghua University | 2024 and 2025
+
+Undergraduate First-Class Comprehensive Excellence Scholarship, Tsinghua University | 2021
+
+Written Examination Winner, S.-T. Yau College Student Mathematics Contest ｜ 2020
 
 ## Experience
 
-Quant researcher intern in XY investments, Shanghai | 2021
-
+Quant Research Intern, XY Investments, Shanghai | 2021

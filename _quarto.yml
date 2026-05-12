@@ -10,7 +10,11 @@ website:
       - href: index.qmd
         text: "Home"
       - href: publication.qmd
+        text: "Publication"
       - href: software.qmd
+        text: "Software"
+      - href: resume.qmd
+        text: "Resume"
 
 format:
   html:

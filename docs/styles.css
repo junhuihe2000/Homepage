@@ -1,1 +1,93 @@
-/* css styles */
+:root {
+  --jh-ink: #16212f;
+  --jh-muted: #5b6675;
+  --jh-line: #dfe5ec;
+  --jh-panel: #f6f8fb;
+  --jh-accent: #176b87;
+}
+
+body {
+  color: var(--jh-ink);
+  font-size: 1.02rem;
+}
+
+a {
+  color: var(--jh-accent);
+}
+
+.navbar {
+  border-bottom: 1px solid var(--jh-line);
+}
+
+.title {
+  letter-spacing: 0;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title .title {
+  font-weight: 700;
+}
+
+main.content {
+  line-height: 1.68;
+}
+
+h2 {
+  margin-top: 2.1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--jh-line);
+  font-weight: 650;
+}
+
+h3 {
+  margin-top: 1.55rem;
+  font-weight: 650;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
+
+.career-panel {
+  margin: 1.4rem 0 1.8rem;
+  padding: 1rem 1.1rem;
+  background: var(--jh-panel);
+  border: 1px solid var(--jh-line);
+  border-left: 4px solid var(--jh-accent);
+  border-radius: 8px;
+}
+
+.career-panel p {
+  margin-bottom: 0.55rem;
+}
+
+.career-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.about-entity .about-link {
+  border-radius: 6px;
+}
+
+.quarto-title-meta,
+.subtitle,
+.description {
+  color: var(--jh-muted);
+}
+
+#refs {
+  font-size: 0.96rem;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .career-panel {
+    padding: 0.9rem;
+  }
+}

@@ -13,5 +13,9 @@
   },
   "publication.qmd": {
     "publication.html": "f6a423ea"
+  },
+  "resume.qmd": {
+    "resume.html": "1ed67914",
+    "resume.tex": "c6a35a8f"
   }
 }

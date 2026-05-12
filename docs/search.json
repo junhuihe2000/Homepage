@@ -4,42 +4,119 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "Geometric Gaussian process on manifolds\n\nFLGP: An R package for scalable Bayesian inference of heat kernel Gaussian processes on manifolds (written in Rcpp)\n\n\n\nBayesian model selection\n\nEBARS: An R package for adaptive Bayesian multivariate spline knot inference (written in Rcpp)"
+    "text": "I develop research software for scalable Bayesian inference and statistical machine learning. My packages are built to turn methodological research into reusable tools, with performance-critical components implemented in Rcpp."
+  },
+  {
+    "objectID": "software.html#packages",
+    "href": "software.html#packages",
+    "title": "Software",
+    "section": "Packages",
+    "text": "Packages\n\nGeometric Gaussian Processes on Manifolds\nFLGP is an R package for scalable Bayesian inference of heat kernel Gaussian processes on manifolds.\n\nImplements reduced-rank approximations for scalable Gaussian process inference.\nTargets large, high-dimensional scientific data while preserving intrinsic geometry.\nWritten with Rcpp for performance-sensitive computation.\n\n\n\nBayesian Model Selection\nABMRS is an R package for adaptive Bayesian multivariate spline knot inference.\n\nSupports Bayesian model selection with priors on model complexity.\nDesigned for flexible multivariate spline modeling.\nWritten with Rcpp for efficient computation."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Junhui He",
     "section": "",
-    "text": "I am a PhD student in Statistics at the Department of Mathematical Sciences, Tsinghua University. Welcome to my homepage! Recently I am interested in variational inference and generative models.\nhejh22@mails.tsinghua.edu.cn"
+    "text": "I am a PhD student in Statistics at Tsinghua University and a visiting PhD student in Biostatistics at the University of Michigan. I build statistical machine learning methods for high-dimensional scientific data, with a focus on Bayesian inference, Gaussian processes, manifold learning, and scalable algorithms.\nI am especially interested in industry roles where scalable computation, reliable software, and modern machine learning meet: large language models, data science, applied scientist, machine learning engineer, quantitative research, and AI for science. My recent work includes scalable Bayesian inference on manifolds, spatiotemporal modeling for transcriptomics, and statistical methods for imaging and biomedical data.\nhejh22@mails.tsinghua.edu.cn"
+  },
+  {
+    "objectID": "index.html#selected-highlights",
+    "href": "index.html#selected-highlights",
+    "title": "Junhui He",
+    "section": "Selected Highlights",
+    "text": "Selected Highlights\n\nPublished scalable Bayesian inference research in JRSSB, reducing heat-kernel Gaussian process computation from cubic to linear complexity for large-scale data on Riemannian manifolds.\nDeveloped research software packages in R/Rcpp for Gaussian process modeling and Bayesian model selection.\nApplied statistical modeling to neuroimaging and transcriptomics.\nTrained in mathematics and statistics at Tsinghua University, with ongoing biostatistics research experience at the University of Michigan."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Junhui He",
     "section": "Education",
-    "text": "Education\nPhD student in Statistics, Tsinghua University | 2022 - now\nBS in Mathematics, Tsinghua University | 2018 - 2022"
+    "text": "Education\nPhD student in Statistics, Tsinghua University | 2022-08 — Present\nVisiting PhD student in Biostatistics, University of Michigan, Ann Arbor | 2024-11 — 2026-08\nBS in Mathematics, Tsinghua University | 2018-08 — 2022-06"
   },
   {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
+    "objectID": "index.html#research-engineering-interests",
+    "href": "index.html#research-engineering-interests",
     "title": "Junhui He",
-    "section": "Research Interests",
-    "text": "Research Interests\nGaussian Process, Manifold Learning, Bayesian Inference, Spline Regression"
+    "section": "Research & Engineering Interests",
+    "text": "Research & Engineering Interests\n\nBayesian inference, Gaussian processes, MCMC, variational inference\nManifold learning, graph Laplacians, reduced-rank approximation, scalable computation\nMachine learning for biomedical and scientific data\nLarge language models and statistical applications of foundation models"
   },
   {
     "objectID": "index.html#awards",
     "href": "index.html#awards",
     "title": "Junhui He",
     "section": "Awards",
-    "text": "Awards\nScholarship of Tsinghua University | 2021"
+    "text": "Awards\nGraduate First-Class Comprehensive Excellence Scholarship, Tsinghua University | 2024 and 2025\nUndergraduate First-Class Comprehensive Excellence Scholarship, Tsinghua University | 2021\nWritten Examination Winner, S.-T. Yau College Student Mathematics Contest ｜ 2020"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Junhui He",
     "section": "Experience",
-    "text": "Experience\nQuant researcher intern in XY investments, Shanghai | 2021"
+    "text": "Experience\nQuant Research Intern, XY Investments, Shanghai | 2021"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Junhui He",
+    "section": "",
+    "text": "PhD candidate in Statistics with experience building statistical machine learning methods, scalable Bayesian inference algorithms, and research software for high-dimensional scientific data. Strong background in Bayesian modeling, Gaussian processes, manifold learning, and applied machine learning, with applications in neuroimaging, transcriptomics, clinical photography, and skin reflectance data. Seeking industry roles in data science, applied science, machine learning, AI for science, quantitative research, or biomedical AI."
+  },
+  {
+    "objectID": "resume.html#professional-summary",
+    "href": "resume.html#professional-summary",
+    "title": "Junhui He",
+    "section": "",
+    "text": "PhD candidate in Statistics with experience building statistical machine learning methods, scalable Bayesian inference algorithms, and research software for high-dimensional scientific data. Strong background in Bayesian modeling, Gaussian processes, manifold learning, and applied machine learning, with applications in neuroimaging, transcriptomics, clinical photography, and skin reflectance data. Seeking industry roles in data science, applied science, machine learning, AI for science, quantitative research, or biomedical AI."
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Junhui He",
+    "section": "Education",
+    "text": "Education\nPhD candidate in Statistics, Tsinghua University | 2022-08 - Present\nVisiting PhD student in Biostatistics, University of Michigan, Ann Arbor | 2024-11 - 2026-08\nBS in Mathematics, Tsinghua University | 2018-08 - 2022-06"
+  },
+  {
+    "objectID": "resume.html#technical-skills",
+    "href": "resume.html#technical-skills",
+    "title": "Junhui He",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nProgramming languages: R, Python, C++\nStatistical modeling: Bayesian inference, Gaussian processes, Markov chain Monte Carlo, variational inference, spline models\nMachine learning: PyTorch, scikit-learn, manifold learning, dimensionality reduction\nScientific computing: Rcpp, graph Laplacians, reduced-rank approximation, high-dimensional data analysis\nApplication areas: neuroimaging, transcriptomics, biomedical imaging, quantitative finance"
+  },
+  {
+    "objectID": "resume.html#research-software-experience",
+    "href": "resume.html#research-software-experience",
+    "title": "Junhui He",
+    "section": "Research & Software Experience",
+    "text": "Research & Software Experience\nScalable Bayesian inference for heat kernel Gaussian processes on manifolds\n\nDeveloped scalable Bayesian methodology for manifold-valued data using graph Laplacian approximations and reduced-rank computation.\nReduced computational complexity from \\(O(n^3)\\) to \\(O(n)\\) for large-scale inference while preserving intrinsic data geometry.\nBuilt the accompanying FLGP R package with Rcpp implementation.\n\nAdaptive Bayesian multivariate spline model selection\n\nDeveloped Bayesian model selection methods for multivariate spline knot inference with priors on model complexity.\nBuilt the accompanying ABMRS R package with Rcpp implementation.\n\nApplied biomedical data modeling\n\nWorked on statistical methods for spatiotemporal transcriptomics and imaging data.\nContributed to optical and statistical analysis of skin reflectance measurement using large-scale spectra data.\n\nQuantitative research internship, XY Investments, Shanghai | 2021\n\nApplied mathematical and statistical modeling in a quantitative research setting."
+  },
+  {
+    "objectID": "resume.html#publications",
+    "href": "resume.html#publications",
+    "title": "Junhui He",
+    "section": "Publications",
+    "text": "Publications\n\n\nHe, Junhui, Guoxuan Ma, Jian Kang, and Ying Yang. 2026. “Scalable Bayesian Inference for Heat Kernel Gaussian Processes on Manifolds.” Journal of the Royal Statistical Society Series B: Statistical Methodology 88 (2): 516–39. https://doi.org/10.1093/jrsssb/qkaf057.\n\n\nHe, Junhui, Ying Yang, and Jian Kang. 2024. “Adaptive Bayesian Multivariate Spline Knot Inference with Prior Specifications on Model Complexity.” https://arxiv.org/abs/2405.13353.\n\n\nPryor, Yemko, Junhui He, Jian Kang, Blair Jenkins, and Tina Lasisi. 2026. “Optical Limits in Skin Reflectance Measurement: Quantifying Melanin-Dependent Constraints on Erythema Detection.” Journal of Investigative Dermatology. https://doi.org/https://doi.org/10.1016/j.jid.2026.03.025."
+  },
+  {
+    "objectID": "resume.html#awards",
+    "href": "resume.html#awards",
+    "title": "Junhui He",
+    "section": "Awards",
+    "text": "Awards\nGraduate First-Class Comprehensive Excellence Scholarship, Tsinghua University | 2024 and 2025\nUndergraduate First-Class Comprehensive Excellence Scholarship, Tsinghua University | 2021\nWritten Examination Winner, S.-T. Yau College Student Mathematics Contest ｜ 2020"
+  },
+  {
+    "objectID": "publication.html",
+    "href": "publication.html",
+    "title": "Publications",
+    "section": "",
+    "text": "He, Junhui, Guoxuan Ma, Jian Kang, and Ying Yang. 2026. “Scalable Bayesian Inference for Heat Kernel Gaussian Processes on Manifolds.” Journal of the Royal Statistical Society Series B: Statistical Methodology 88 (2): 516–39. https://doi.org/10.1093/jrsssb/qkaf057.\n\n\nHe, Junhui, Ying Yang, and Jian Kang. 2024. “Adaptive Bayesian Multivariate Spline Knot Inference with Prior Specifications on Model Complexity.” https://arxiv.org/abs/2405.13353.\n\n\nPryor, Yemko, Junhui He, Jian Kang, Blair Jenkins, and Tina Lasisi. 2026. “Optical Limits in Skin Reflectance Measurement: Quantifying Melanin-Dependent Constraints on Erythema Detection.” Journal of Investigative Dermatology. https://doi.org/https://doi.org/10.1016/j.jid.2026.03.025."
+  },
+  {
+    "objectID": "publication.html#papers",
+    "href": "publication.html#papers",
+    "title": "Publications",
+    "section": "",
+    "text": "He, Junhui, Guoxuan Ma, Jian Kang, and Ying Yang. 2026. “Scalable Bayesian Inference for Heat Kernel Gaussian Processes on Manifolds.” Journal of the Royal Statistical Society Series B: Statistical Methodology 88 (2): 516–39. https://doi.org/10.1093/jrsssb/qkaf057.\n\n\nHe, Junhui, Ying Yang, and Jian Kang. 2024. “Adaptive Bayesian Multivariate Spline Knot Inference with Prior Specifications on Model Complexity.” https://arxiv.org/abs/2405.13353.\n\n\nPryor, Yemko, Junhui He, Jian Kang, Blair Jenkins, and Tina Lasisi. 2026. “Optical Limits in Skin Reflectance Measurement: Quantifying Melanin-Dependent Constraints on Erythema Detection.” Journal of Investigative Dermatology. https://doi.org/https://doi.org/10.1016/j.jid.2026.03.025."
   },
   {
     "objectID": "about.html",
@@ -47,19 +124,5 @@
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "publication.html",
-    "href": "publication.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Junhui He, Guoxuan Ma, Jian Kang and Ying Yang. (2024) Scalable Bayesian inference for heat kernel Gaussian processes on manifolds. Preprint arXiv:2405.13342.\nJunhui He, Ying Yang and Jian Kang. (2024) Adaptive Bayesian multivariate spline knot inference with prior specifications on model complexity. Preprint arXiv:2405.13353."
-  },
-  {
-    "objectID": "publication.html#papers-under-review",
-    "href": "publication.html#papers-under-review",
-    "title": "Publications",
-    "section": "",
-    "text": "Junhui He, Guoxuan Ma, Jian Kang and Ying Yang. (2024) Scalable Bayesian inference for heat kernel Gaussian processes on manifolds. Preprint arXiv:2405.13342.\nJunhui He, Ying Yang and Jian Kang. (2024) Adaptive Bayesian multivariate spline knot inference with prior specifications on model complexity. Preprint arXiv:2405.13353."
   }
 ]

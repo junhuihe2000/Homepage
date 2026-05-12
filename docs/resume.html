@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Junhui He</title>
+<title>Junhui He</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -69,11 +89,40 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resume.html"> 
+    <a class="nav-link active" href="./resume.html" aria-current="page"> 
 <span class="menu-text">Resume</span></a>
   </li>  
 </ul>
@@ -117,13 +166,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="resume.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Junhui He</h1>
 </div>
 
 
@@ -140,9 +190,71 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<section id="professional-summary" class="level2">
+<h2 class="anchored" data-anchor-id="professional-summary">Professional Summary</h2>
+<p>PhD candidate in Statistics with experience building statistical machine learning methods, scalable Bayesian inference algorithms, and research software for high-dimensional scientific data. Strong background in Bayesian modeling, Gaussian processes, manifold learning, and applied machine learning, with applications in neuroimaging, transcriptomics, clinical photography, and skin reflectance data. Seeking industry roles in data science, applied science, machine learning, AI for science, quantitative research, or biomedical AI.</p>
+</section>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<p>PhD candidate in Statistics, Tsinghua University | 2022-08 - Present</p>
+<p>Visiting PhD student in Biostatistics, University of Michigan, Ann Arbor | 2024-11 - 2026-08</p>
+<p>BS in Mathematics, Tsinghua University | 2018-08 - 2022-06</p>
+</section>
+<section id="technical-skills" class="level2">
+<h2 class="anchored" data-anchor-id="technical-skills">Technical Skills</h2>
+<ul>
+<li>Programming languages: R, Python, C++</li>
+<li>Statistical modeling: Bayesian inference, Gaussian processes, Markov chain Monte Carlo, variational inference, spline models</li>
+<li>Machine learning: PyTorch, scikit-learn, manifold learning, dimensionality reduction</li>
+<li>Scientific computing: Rcpp, graph Laplacians, reduced-rank approximation, high-dimensional data analysis</li>
+<li>Application areas: neuroimaging, transcriptomics, biomedical imaging, quantitative finance</li>
+</ul>
+</section>
+<section id="research-software-experience" class="level2">
+<h2 class="anchored" data-anchor-id="research-software-experience">Research &amp; Software Experience</h2>
+<p><strong>Scalable Bayesian inference for heat kernel Gaussian processes on manifolds</strong></p>
+<ul>
+<li>Developed scalable Bayesian methodology for manifold-valued data using graph Laplacian approximations and reduced-rank computation.</li>
+<li>Reduced computational complexity from <span class="math inline">\(O(n^3)\)</span> to <span class="math inline">\(O(n)\)</span> for large-scale inference while preserving intrinsic data geometry.</li>
+<li>Built the accompanying <a href="https://github.com/junhuihe2000/FLGP">FLGP R package</a> with Rcpp implementation.</li>
+</ul>
+<p><strong>Adaptive Bayesian multivariate spline model selection</strong></p>
+<ul>
+<li>Developed Bayesian model selection methods for multivariate spline knot inference with priors on model complexity.</li>
+<li>Built the accompanying <a href="https://github.com/junhuihe2000/ABMRS">ABMRS R package</a> with Rcpp implementation.</li>
+</ul>
+<p><strong>Applied biomedical data modeling</strong></p>
+<ul>
+<li>Worked on statistical methods for spatiotemporal transcriptomics and imaging data.</li>
+<li>Contributed to optical and statistical analysis of skin reflectance measurement using large-scale spectra data.</li>
+</ul>
+<p><strong>Quantitative research internship, XY Investments, Shanghai | 2021</strong></p>
+<ul>
+<li>Applied mathematical and statistical modeling in a quantitative research setting.</li>
+</ul>
+</section>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-10.1093/jrsssb/qkaf057" class="csl-entry" role="listitem">
+He, Junhui, Guoxuan Ma, Jian Kang, and Ying Yang. 2026. <span>“Scalable Bayesian Inference for Heat Kernel Gaussian Processes on Manifolds.”</span> <em>Journal of the Royal Statistical Society Series B: Statistical Methodology</em> 88 (2): 516–39. <a href="https://doi.org/10.1093/jrsssb/qkaf057">https://doi.org/10.1093/jrsssb/qkaf057</a>.
+</div>
+<div id="ref-he2024adaptive" class="csl-entry" role="listitem">
+He, Junhui, Ying Yang, and Jian Kang. 2024. <span>“Adaptive Bayesian Multivariate Spline Knot Inference with Prior Specifications on Model Complexity.”</span> <a href="https://arxiv.org/abs/2405.13353">https://arxiv.org/abs/2405.13353</a>.
+</div>
+<div id="ref-PRYOR2026" class="csl-entry" role="listitem">
+Pryor, Yemko, Junhui He, Jian Kang, Blair Jenkins, and Tina Lasisi. 2026. <span>“Optical Limits in Skin Reflectance Measurement: Quantifying Melanin-Dependent Constraints on Erythema Detection.”</span> <em>Journal of Investigative Dermatology</em>. https://doi.org/<a href="https://doi.org/10.1016/j.jid.2026.03.025">https://doi.org/10.1016/j.jid.2026.03.025</a>.
+</div>
+</div>
+</section>
+<section id="awards" class="level2">
+<h2 class="anchored" data-anchor-id="awards">Awards</h2>
+<p>Graduate First-Class Comprehensive Excellence Scholarship, Tsinghua University | 2024 and 2025</p>
+<p>Undergraduate First-Class Comprehensive Excellence Scholarship, Tsinghua University | 2021</p>
+<p>Written Examination Winner, S.-T. Yau College Student Mathematics Contest ｜ 2020</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

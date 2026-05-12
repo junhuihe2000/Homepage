@@ -4,10 +4,22 @@ about:
   template: solana
 ---
 
-### Geometric Gaussian process on manifolds
+I develop research software for scalable Bayesian inference and statistical machine learning. My packages are built to turn methodological research into reusable tools, with performance-critical components implemented in Rcpp.
 
-- [FLGP: An R package for scalable Bayesian inference of heat kernel Gaussian processes on manifolds](https://github.com/junhuihe2000/FLGP) (written in Rcpp)
+## Packages
 
-### Bayesian model selection
+### Geometric Gaussian Processes on Manifolds
 
-- [EBARS: An R package for adaptive Bayesian multivariate spline knot inference](https://github.com/junhuihe2000/EBARS) (written in Rcpp)
+[FLGP](https://github.com/junhuihe2000/FLGP) is an R package for scalable Bayesian inference of heat kernel Gaussian processes on manifolds.
+
+- Implements reduced-rank approximations for scalable Gaussian process inference.
+- Targets large, high-dimensional scientific data while preserving intrinsic geometry.
+- Written with Rcpp for performance-sensitive computation.
+
+### Bayesian Model Selection
+
+[ABMRS](https://github.com/junhuihe2000/ABMRS) is an R package for adaptive Bayesian multivariate spline knot inference.
+
+- Supports Bayesian model selection with priors on model complexity.
+- Designed for flexible multivariate spline modeling.
+- Written with Rcpp for efficient computation.

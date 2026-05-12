@@ -1,0 +1,61 @@
+---
+title: "Junhui He"
+format:
+  html:
+    toc: false
+  pdf:
+    toc: false
+bibliography: papers.bib
+nocite: |
+  @*
+---
+
+## Professional Summary
+
+PhD student in Statistics with experience building statistical machine learning methods, scalable Bayesian inference algorithms, and research software for high-dimensional scientific data. Strong background in Bayesian modeling, Gaussian processes, manifold learning, and applied machine learning, with applications in neuroimaging and transcriptomics. Seeking industry roles in large language models, data science, machine learning, AI for science, quantitative research.
+
+## Education
+
+PhD student in Statistics, Tsinghua University | 2022-08 --- Present
+
+Visiting PhD student in Biostatistics, University of Michigan, Ann Arbor | 2024-11 --- 2026-08
+
+BS in Mathematics, Tsinghua University | 2018-08 --- 2022-06
+
+## Technical Skills
+
+- Programming languages: R, Python, C++
+- Statistical modeling: Bayesian inference, Gaussian processes, Markov chain Monte Carlo, variational inference, spline models
+- Machine learning: PyTorch, scikit-learn, manifold learning
+
+## Research & Software Experience
+
+**Scalable Bayesian inference for heat kernel Gaussian processes on manifolds**
+
+- Developed scalable Bayesian methodology for large-scale data on Riemannian manifolds, e.g., image data and fMRI data, using graph Laplacian approximations and reduced-rank computation.
+- Reduced computational complexity from $O(n^3)$ to $O(n)$ for large-scale inference while preserving intrinsic data geometry.
+- Built the accompanying [FLGP R package](https://github.com/junhuihe2000/FLGP) with Rcpp implementation.
+
+**Adaptive Bayesian multivariate regression spline model**
+
+- Developed Bayesian adaptive model selection methods for multivariate spline knot inference with priors on model complexity.
+- Applied the method to capturing discontinuity, change-point detection, and peak identification.
+- Built the accompanying [ABMRS R package](https://github.com/junhuihe2000/ABMRS) with Rcpp implementation.
+
+**Quantitative research internship, XY Investments, Shanghai | 2021**
+
+- Applied mathematical and statistical modeling in a quantitative research setting.
+- Backtested trading strategies using efficient and robust precision matrix estimation.
+
+## Publications
+
+::: {#refs}
+:::
+
+## Awards
+
+Graduate First-Class Comprehensive Excellence Scholarship, Tsinghua University | 2024 and 2025
+
+Undergraduate First-Class Comprehensive Excellence Scholarship, Tsinghua University | 2021
+
+Written Examination Winner, S.-T. Yau College Student Mathematics Contest ｜ 2020
